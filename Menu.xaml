@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proga.Menu" 
+             xmlns:pages="clr-namespace:Proga" 
+             BindingContext="{x:Reference Name=DetailPage}"
+             Title="{Binding Path=Title}"
+                  >
+    <MasterDetailPage.Master>
+        <pages:MenuMaster x:Name="MasterPage"/>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <pages:AuthPage x:Name="DetailPage"/>     
+  </MasterDetailPage.Detail>
+</MasterDetailPage>

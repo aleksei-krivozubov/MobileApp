@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proga.Instr_reg">
+    <ContentPage.Resources>
+        <!--Стили-->
+        <ResourceDictionary>
+            <Color x:Key="dark_blue">#1976D2</Color>
+            <!--Цвет темных кнопок-->
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <!--Стиль кнопок-->
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="BackgroundColor" Value="{StaticResource Key=dark_blue}" />
+            </Style>
+
+            <Style  x:Key="gray_style" TargetType="Entry">
+                <Setter Property="PlaceholderColor" Value="#263238"/>
+                <Setter Property="VerticalOptions"    Value="Center"/>
+                <Setter Property="Margin" Value="20,5,20,0"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
