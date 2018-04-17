@@ -13,4 +13,4 @@ CREATE TABLE Users(
        phone                varchar(12) NOT NULL,
        comm                 varchar(300),
        date_reg             datetime NOT NULL CHECK(date_reg >='01.01.2018')
-);
+);ва
